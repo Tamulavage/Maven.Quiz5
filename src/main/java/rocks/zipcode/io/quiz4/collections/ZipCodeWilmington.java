@@ -23,7 +23,7 @@ public class ZipCodeWilmington {
     }
 
     public Map<Student, Double> getStudyMap() {
-        Map studentsMap = new HashMap();
+        Map studentsMap = new TreeMap();
         Double hoursLearned ;
         for(Student student:studentList){
             hoursLearned = student.getTotalStudyTime();

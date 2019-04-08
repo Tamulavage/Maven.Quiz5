@@ -9,6 +9,7 @@ import java.util.TreeSet;
  */
 public class GenericUtils {
     public static <_ extends Comparable> Iterable<? extends Iterable<_>> powerSet(Set<_> originalSet) {
+
         return null;
     }
 

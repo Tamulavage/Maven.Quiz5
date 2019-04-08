@@ -11,7 +11,6 @@ import java.util.TreeSet;
  * @author leon on 11/12/2018.
  */
 public class    ComparableTreeSet<T> extends TreeSet<T> implements Comparable{
-    //T[] fun;
     List<T> fun= new ArrayList<>();
 
     public ComparableTreeSet(T... arr) {
